@@ -40,7 +40,7 @@ All in all, the Users table is the main table in which it has two different one-
 # Notable Assumptions
 - There is only one superuser, and they are either created upon launching of the application or are already added to the database.
 - A superuser has the same features as a regular user, as well as five additional features that will be describled in the Program Flow.
-
+- Superuser transactions on another user's account 
 
 
 
