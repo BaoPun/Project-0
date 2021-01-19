@@ -37,6 +37,8 @@ There are three tables in the database: Users, Accounts, and Transactions.
 
 All in all, the Users table is the main table in which it has two different one-to-many relationships with the other tables.
 
+![](images/ERD0.png?raw=true)
+
 # Notable Assumptions
 - There is only one superuser, and they are either created upon launching of the application or are already added to the database.
 - A superuser has the same features as a regular user, as well as five additional features that will be describled in the Program Flow.
