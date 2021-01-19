@@ -4,6 +4,9 @@ This project is the only application that will be run on the console.
 The purpose of this project is to simulate a banking service, where users are able to log into their User accounts in order to deposit/withdraw from their various Bank Accounts.
 For some of the technologies used in this project, Java Eclipse and Oracle SQL were primarily used to develop the code.
 
+# Note For Those Who Want To Clone This
+There is an additional folder required that is missing: src/main/resources.  The resources folder contains 2 files that deal with pre-authenticating login information to my Oracle SQL Database.  Please reach out to me if you want this folder with the two files.  
+
 # Application Features
 - A registered user can login with their username and password
 - An unregistered user can register by creating a username and password 
