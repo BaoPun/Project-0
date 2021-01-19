@@ -179,6 +179,9 @@ public class UserDAOImpl implements UserDAO{
 			// Next, update the User's list of accounts
 			user.setNewAccounts(accounts.getAllAccounts(user.getId()));
 			
+			// Also update their list of Transactions
+			user.setNewTransactions(transactions.getRecentTransactions(user.getId())); 
+			
 			// Safely close the statements
 			ps.close();
 			rs.close();

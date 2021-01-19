@@ -303,6 +303,10 @@ public class User {
 		this.accounts = newAccounts;
 	}
 	
+	public void setNewTransactions(List<Transaction> newTransactions) {
+		this.transactions = newTransactions;
+	}
+	
 	public void addTransaction(Transaction transaction) {
 		this.transactions.add(transaction);
 	}
