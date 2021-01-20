@@ -52,7 +52,7 @@ All in all, the Users table is the main table in which it has two different one-
       1. Log in
       2. Sign up
       3. Exit the program  <br/>
-    - The user that is logged in is a regular user (6 prompts are shown):
+    - The user that is logged in is a regular user (7 prompts are shown):
       1. View all Bank Accounts
       2. View the 10 most recent transactions made
       3. Create a new Bank Account
@@ -60,9 +60,8 @@ All in all, the Users table is the main table in which it has two different one-
       5. Deposit onto a Bank Account
       6. Withdraw from a Bank Account
       7. Log out  <br/>
-    - The user that is logged in is a superuser (alongside the 7 prompts of the regular user, 5 more are shown):
+    - The user that is logged in is a superuser (alongside the 7 prompts of the regular user, 4 more are shown):
       1. View a specific User's balance
-      2. View a specific User's 10 most recent transactions
-      3. Create a brand new User
-      4. Update a specific User's bank account(s) via deposit or withdraw
-      5. Delete a specific User's bank account(s) or the User itself
+      2. Create a brand new User
+      3. Update a specific User's bank account(s) via deposit or withdraw
+      4. Delete a specific User's bank account(s) or the User itself
